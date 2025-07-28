@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# pytest cache
+.pytest_cache/
+
+# Virtual environments (if you ever use a local .venv)
+.venv/
+env/
+venv/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Parquet outputs & test data
+*.parquet
+output/
+
+# LocalStack state (Docker volumes, etc.) if you added any
+.localstack/
+
+# Model artifacts
+model.bin
+
+# AWS credential files (if you created one)
+.aws/ 
+
+# Shell scripts (optional; most teams commit these)
+# run_integration_test.sh
+
+# Pipenv lock files are normally committed
+# Pipfile
+# Pipfile.lock
+
+# MacOS
+.DS_Store
